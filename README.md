@@ -1,4 +1,5 @@
 # SurSetu
+Connecting Notes, Creating Moments
 
 ![Copilot_20250628_135114](https://github.com/user-attachments/assets/aa0d8dee-40d3-4825-b57c-fafa02893895)
 

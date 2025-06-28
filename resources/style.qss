@@ -1,0 +1,69 @@
+/* General */
+QWidget {
+    background-color: #121212;
+    color: #eeeeee;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #1f1f1f;
+    border: 1px solid #2a2a2a;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+QPushButton:hover {
+    background-color: #333;
+}
+QPushButton:pressed {
+    background-color: #1db954;
+    color: black;
+}
+
+/* Sliders */
+QSlider::groove:horizontal {
+    border: 1px solid #444;
+    height: 6px;
+    background: #2a2a2a;
+    margin: 2px 0;
+}
+QSlider::handle:horizontal {
+    background: #1db954;
+    border: 1px solid #5c5c5c;
+    width: 12px;
+    margin: -5px 0;
+    border-radius: 6px;
+}
+
+/* Scrollbars */
+QScrollBar:vertical, QScrollBar:horizontal {
+    background: #121212;
+    width: 10px;
+}
+QScrollBar::handle {
+    background: #2a2a2a;
+    border-radius: 4px;
+}
+QScrollBar::handle:hover {
+    background: #444;
+}
+
+/* ListWidgets */
+QListWidget {
+    background-color: #181818;
+    border: 1px solid #2a2a2a;
+}
+QListWidget::item:selected {
+    background-color: #1db954;
+    color: black;
+}
+
+/* LineEdit */
+QLineEdit {
+    background-color: #1f1f1f;
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+    padding: 4px 8px;
+    color: #fff;
+}

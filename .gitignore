@@ -1,0 +1,53 @@
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VLC cache or logs (if any)
+vlc-log.txt
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# VSCode (optional)
+.vscode/
+
+# Logs or test artifacts
+*.log
+*.tmp
+
+# Python egg / wheels
+*.egg-info/
+dist/
+build/
+
+# Cached thumbnails (if saving album art locally)
+assets/*.jpg
+assets/*.png
+
+# Compiled UI or resource files
+*.pyc
+*.qrc
+*.rcc
+
+# Coverage / test
+htmlcov/
+coverage.xml
+.tox/
+.pytest_cache/
+
+# pip local config
+pip-log.txt
+pip-delete-this-directory.txt
